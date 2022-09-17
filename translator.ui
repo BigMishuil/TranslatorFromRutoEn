@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SmartTranslator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #2c3136</string>
+   </property>
+   <widget class="QLabel" name="text_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>84</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string>Русский</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_text">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>371</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2c3136;
+border: 2px solid #f66867;
+border-radius: 10px;
+color: white
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="output_currency">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>150</y>
+      <width>371</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2c3136;
+border: 2px solid #f66867;
+border-radius: 10px;
+color: white
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="translate_button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>390</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: white;
+background-color: #fc2847;
+border-radius: 10;
+display: block;
+transition: transform .6s ease;
+}
+
+QPushButton:pressed{
+background-color: #f8173e;
+border: 2px solid #f66867
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Перевести</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>510</y>
+      <width>221</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string>Smart Translator</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_3">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>120</y>
+      <width>131</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string>Английский</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
