@@ -1,5 +1,5 @@
 # 🌍 Translator from Russian to English with the graphical interface
----
+
 
 
 ### 💬 [VK](https://vk.com/prettymeyt)
