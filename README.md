@@ -1,5 +1,4 @@
 # 🌍 Translator from Russian to English with the graphical interface
-## Are there any other options? Create a pull request!
 ---
 
 
