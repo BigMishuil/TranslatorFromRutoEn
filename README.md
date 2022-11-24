@@ -1,4 +1,4 @@
-# 🌍 Translator from Russian to English with GUI(PyQt5)
+# 🌍 Translator app with GUI(PyQt5)
 
 
 
