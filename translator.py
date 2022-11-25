@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'translator.ui'
+# Form implementation generated from reading ui file 'interface.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.7
 #
@@ -19,7 +19,7 @@ class Ui_mainWindow(object):
         self.centralwidget.setStyleSheet("background-color: #2c3136")
         self.centralwidget.setObjectName("centralwidget")
         self.text_1 = QtWidgets.QLabel(self.centralwidget)
-        self.text_1.setGeometry(QtCore.QRect(20, 120, 84, 26))
+        self.text_1.setGeometry(QtCore.QRect(30, 120, 211, 26))
         font = QtGui.QFont()
         font.setFamily("Montserrat")
         font.setPointSize(14)
@@ -45,23 +45,23 @@ class Ui_mainWindow(object):
         self.input_text.setText("")
         self.input_text.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.input_text.setObjectName("input_text")
-        self.output_currency = QtWidgets.QLineEdit(self.centralwidget)
-        self.output_currency.setGeometry(QtCore.QRect(420, 150, 371, 211))
+        self.output_translation = QtWidgets.QLineEdit(self.centralwidget)
+        self.output_translation.setGeometry(QtCore.QRect(420, 150, 371, 211))
         font = QtGui.QFont()
         font.setFamily("Montserrat")
         font.setPointSize(12)
         font.setBold(False)
         font.setWeight(50)
-        self.output_currency.setFont(font)
-        self.output_currency.setStyleSheet("background-color: #2c3136;\n"
+        self.output_translation.setFont(font)
+        self.output_translation.setStyleSheet("background-color: #2c3136;\n"
 "border: 2px solid #f66867;\n"
 "border-radius: 10px;\n"
 "color: white\n"
 "\n"
 "")
-        self.output_currency.setText("")
-        self.output_currency.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
-        self.output_currency.setObjectName("output_currency")
+        self.output_translation.setText("")
+        self.output_translation.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.output_translation.setObjectName("output_translation")
         self.translate_button = QtWidgets.QPushButton(self.centralwidget)
         self.translate_button.setGeometry(QtCore.QRect(310, 390, 181, 71))
         font = QtGui.QFont()
@@ -96,7 +96,7 @@ class Ui_mainWindow(object):
         self.text_2.setStyleSheet("color: white")
         self.text_2.setObjectName("text_2")
         self.text_3 = QtWidgets.QLabel(self.centralwidget)
-        self.text_3.setGeometry(QtCore.QRect(660, 120, 131, 26))
+        self.text_3.setGeometry(QtCore.QRect(440, 120, 171, 26))
         font = QtGui.QFont()
         font.setFamily("Montserrat")
         font.setPointSize(14)
@@ -105,6 +105,30 @@ class Ui_mainWindow(object):
         self.text_3.setFont(font)
         self.text_3.setStyleSheet("color: white")
         self.text_3.setObjectName("text_3")
+        self.comboBox = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox.setGeometry(QtCore.QRect(200, 125, 181, 21))
+        font = QtGui.QFont()
+        font.setFamily("Montserrat")
+        font.setBold(True)
+        font.setWeight(75)
+        self.comboBox.setFont(font)
+        self.comboBox.setStyleSheet("background-color: #2c3136;\n"
+"border: 2px solid #f66867;\n"
+"border-radius: 10px;\n"
+"color: white")
+        self.comboBox.setObjectName("comboBox")
+        self.comboBox_2 = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox_2.setGeometry(QtCore.QRect(610, 125, 181, 21))
+        font = QtGui.QFont()
+        font.setFamily("Montserrat")
+        font.setBold(True)
+        font.setWeight(75)
+        self.comboBox_2.setFont(font)
+        self.comboBox_2.setStyleSheet("background-color: #2c3136;\n"
+"border: 2px solid #f66867;\n"
+"border-radius: 10px;\n"
+"color: white")
+        self.comboBox_2.setObjectName("comboBox_2")
         mainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(mainWindow)
@@ -113,17 +137,7 @@ class Ui_mainWindow(object):
     def retranslateUi(self, mainWindow):
         _translate = QtCore.QCoreApplication.translate
         mainWindow.setWindowTitle(_translate("mainWindow", "SmartTranslator"))
-        self.text_1.setText(_translate("mainWindow", "Русский"))
+        self.text_1.setText(_translate("mainWindow", "Выберите язык:"))
         self.translate_button.setText(_translate("mainWindow", "Перевести"))
         self.text_2.setText(_translate("mainWindow", "Smart Translator"))
-        self.text_3.setText(_translate("mainWindow", "Английский"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    mainWindow = QtWidgets.QMainWindow()
-    ui = Ui_mainWindow()
-    ui.setupUi(mainWindow)
-    mainWindow.show()
-    sys.exit(app.exec_())
+        self.text_3.setText(_translate("mainWindow", "Выберите язык:"))

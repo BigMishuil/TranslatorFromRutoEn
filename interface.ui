@@ -20,9 +20,9 @@
    <widget class="QLabel" name="text_1">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>30</x>
       <y>120</y>
-      <width>84</width>
+      <width>211</width>
       <height>26</height>
      </rect>
     </property>
@@ -38,7 +38,7 @@
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Русский</string>
+     <string>Выберите язык:</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="input_text">
@@ -73,7 +73,7 @@ color: white
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="output_currency">
+   <widget class="QLineEdit" name="output_translation">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -169,9 +169,9 @@ border: 2px solid #f66867
    <widget class="QLabel" name="text_3">
     <property name="geometry">
      <rect>
-      <x>660</x>
+      <x>440</x>
       <y>120</y>
-      <width>131</width>
+      <width>171</width>
       <height>26</height>
      </rect>
     </property>
@@ -187,7 +187,53 @@ border: 2px solid #f66867
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Английский</string>
+     <string>Выберите язык:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>125</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2c3136;
+border: 2px solid #f66867;
+border-radius: 10px;
+color: white</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>125</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2c3136;
+border: 2px solid #f66867;
+border-radius: 10px;
+color: white</string>
     </property>
    </widget>
   </widget>
