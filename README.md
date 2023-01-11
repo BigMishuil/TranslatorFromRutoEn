@@ -2,9 +2,6 @@
 
 
 
-### 💬 [VK](https://vk.com/prettymeyt)
-### ✌️ [Instagram](https://www.instagram.com/dumb.meytt/)
----
 ```
 $ pip install -r requirements.txt
 ```
